@@ -5,7 +5,7 @@ def prime? num
   range_val = neg_inf..pos_inf
   arr_num = range_val.to_a
   if(arr_num.include?(num.to_f))
-    val= num
+    val= num.to_f
     if(val % num == 0 && val == num)
       true
     else
