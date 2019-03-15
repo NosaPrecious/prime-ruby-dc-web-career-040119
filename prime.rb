@@ -3,10 +3,11 @@ def prime? num
   neg_inf= -1.0/0
   pos_inf= 1.0/0
   range_val = neg_inf..pos_inf
-  arr_num = range_val.to_a
-  if(arr_num.include?(f_num))
-    val= f_num
-    if(val % f_num == 0 && val == f_num)
+  conv_range= range_val.to_i
+  arr_num = conv_range.to_a
+  if(arr_num.include?(num))
+    val= num
+    if(val % num == 0 && val == num)
       true
     else
       false
