@@ -1,6 +1,5 @@
 # Add  code here!
 def prime? num
-  f_num= num.to_f
   neg_inf= -1.0/0
   pos_inf= 1.0/0
   range_val = neg_inf..pos_inf
