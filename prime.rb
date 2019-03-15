@@ -4,8 +4,8 @@ def prime? num
   arr_num = range_val.to_a
   if(arr_num.include?(num))
   range_val.none?{|i| num % i == 0}
-  false
-else
   true
+else
+  false
 end
 end
