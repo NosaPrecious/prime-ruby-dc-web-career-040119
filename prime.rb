@@ -5,7 +5,7 @@ def prime? num
 
   if num <= pos_inf || num >= neg_inf
     val= num
-    if val % num == 0 && val == num
+    if val % num == 0 && val == num && val / 1 == num
       true
     else
       false
