@@ -1,6 +1,8 @@
 # Add  code here!
 def prime? num
-  range_val = -105557..105557
+  neg_inf= -1.0/0
+  pos_inf= 1.0/0
+  range_val = neg_inf..pos_inf
   arr_num = range_val.to_a
   if(arr_num.include?(num))
     val= num
